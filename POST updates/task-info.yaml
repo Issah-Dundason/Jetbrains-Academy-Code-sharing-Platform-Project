@@ -283,7 +283,7 @@ files:
 - name: src/platform/Code.java
   visible: true
   learner_created: true
-feedback_link: https://hyperskill.org/projects/130/stages/693/implement#comment
+feedback_link: https://hyperskill.org/learn/step/11028#comment
 status: Solved
 feedback:
   message: Congratulations!

@@ -13,6 +13,10 @@ function send() {
     xhr.send(json);
 
     if (xhr.status === 200) {
-        alert("Success!");
+        let response = xhr.response
+        let returnedObject = JSON.parse(response);
+        alert(`saved with id ${returnedObject.id}`);
+    } else {
+        alert("An error occured");
     }
 }

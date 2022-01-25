@@ -13,6 +13,7 @@ public class Code {
     @JsonIgnore
     private String id;
 
+    @Lob
     private String code;
 
     @Column(name = "load_date")
@@ -36,6 +37,7 @@ public class Code {
         this.viewsRestricted = viewsRestricted;
     }
 
+    @Transient
     private boolean viewsRestricted;
 
     @Transient
@@ -96,4 +98,6 @@ public class Code {
     public void setTime(int time) {
         this.time = time;
     }
+
+    
 }

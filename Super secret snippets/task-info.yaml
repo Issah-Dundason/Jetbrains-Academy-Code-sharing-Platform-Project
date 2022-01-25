@@ -724,9 +724,6 @@ files:
     </body>
     </html>
   learner_created: true
-- name: src/resources/static/css/main.css
-  visible: true
-  learner_created: true
 - name: src/platform/RestController.java
   visible: true
   text: |
@@ -922,7 +919,13 @@ files:
         }
     }
   learner_created: true
-feedback_link: https://hyperskill.org/projects/130/stages/696/implement#comment
+- name: src/resources/static/css/main.css
+  visible: true
+  learner_created: true
+- name: src/resources/templates/index.ftlh
+  visible: true
+  learner_created: true
+feedback_link: https://hyperskill.org/learn/step/11031#comment
 status: Solved
 feedback:
   message: Well done! You've finished the project. Select a new project on <a href="https://hyperskill.org/projects">JetBrains

@@ -1,0 +1,177 @@
+*
+{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body
+{
+    padding-top: 5px;
+    background-color: #D88863;
+}
+
+#container
+{
+    width: 60%;
+    background-color: #efefef;
+    position: relative;
+    margin: auto;
+    height: fit-content;
+}
+
+#heading
+{
+    background-color: #262626;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #efefef;
+    position: relative;
+}
+
+#menu-buttons
+{
+    width: 60px;
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    right: 20px;
+}
+
+#menu-buttons span
+{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+
+.maximize
+{
+    background-color: yellow;
+}
+
+.minimize
+{
+    background-color: green;
+}
+
+.close
+{
+    background-color: darkred;
+}
+
+#content
+{
+    padding: 20px;
+    width: 80%;
+    margin: auto;
+}
+
+#content textarea
+{
+    display: block;
+    width: 100%;
+    height: 400px;
+    resize: none;
+    overflow-y: scroll;
+    background-color: #efefef;
+    border: 2px solid #262626;
+    margin-bottom: 10px;
+}
+
+#content textarea:focus
+{
+    outline: none;
+    border: none;
+    background-color: #cecece;
+}
+
+.input
+{
+    display: flex;
+    align-items: center;
+}
+
+input
+{
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+    border: 2px solid #D88863;
+    text-align: center;
+}
+
+input:focus
+{
+    outline: none;
+}
+
+button
+{
+    width: 100px;
+    height: 30px;
+    right: 15%;
+    bottom: 25px;
+    position: absolute;
+}
+
+#load_date, #views_restriction, #time_restriction
+{
+    background-color: #262626;
+    color: gold;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+pre
+{
+    border: 2px solid #262626;
+    height: 300px;
+    overflow-y: scroll;
+}
+
+/*For index.ftlh*/
+#menu
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+ul
+{
+    display: flex;
+    width: 20%;
+    color: white;
+}
+
+ul li
+{
+    list-style: none;
+    height: 40px;
+    width: 100px;
+    padding: 5px;
+    display: inline-block;
+    background-color: #262626;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+
+li:hover
+{
+    background-color: gold;
+    color: black;
+}
